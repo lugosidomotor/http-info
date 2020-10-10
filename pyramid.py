@@ -52,3 +52,16 @@ Output:
  * * * * 
 * * * * * 
 """
+
+#Nice solution:
+for i in range(sorok_szama):
+    print(('{:^'+str(sorok_szama*2-1)+'}').format('*' * (1+i*2)))
+
+"""
+Output:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+"""
